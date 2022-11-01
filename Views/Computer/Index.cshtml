@@ -29,6 +29,13 @@ else
                         <td>@computer.Processor</td>
                         <td>
                             <a 
+
+                           <a asp-controller="Computer"
+                            asp-action="Show"
+                            asp-route-id=
+                            "@Computer.Id">About Blog</a>
+
+                                                        @*<a 
                             class="btn btn-primary btn-sm"
                             href="/Computer/Show/@computer.Id">
                             Ver
@@ -37,7 +44,8 @@ else
                             class="btn btn-primary btn-sm"
                             href="/Computer/Delete/@computer.Id">
                             Deletar
-                            </a>
+                            </a>*@
+
                         </td>
                     </tr>
                 }
